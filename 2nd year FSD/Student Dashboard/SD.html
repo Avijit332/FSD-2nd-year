@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Student Management System</h1>
+   <div class="controls">
+    <input type="text" id="search" placeholder="Search by name">
+    <select id="filterBranch">
+        <option value="All">All</option>
+        <option value="DS1">DS1</option>
+        <option value="DS2">DS2</option>
+        <option value="DS3">DS3</option>
+    </select>
+   </div>
+   <form id="studentForm">
+    <input type="text" id="name" placeholder="Type your name" required>
+    <input type="number" id="roll" placeholder="enter your roll number" required>
+    <input type="email" id="email" placeholder="E-mail" required>
+    <select id="branch">
+        <option value="DS1">DS1</option>
+        <option value="DS2">DS2</option>
+        <option value="DS3">DS3</option>  
+    </select>
+    <button type="submit">Add Student</button>
+   </form>
+   <table>
+   <thead>
+        <tr>
+            <th>Roll Number</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="studentTable">
+    </tbody>
+   </table>
+   <div class="total">
+    Total Students: <span id="count">0</span>
+   </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
