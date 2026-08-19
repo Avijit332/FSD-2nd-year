@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c70d0d;
+    border: 1px solid #0c0c0c;
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(2, 244, 184, 0.1);
+}
+p {
+    color: #000000;
+    line-height: 1.6;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #060606;
+    border-radius: 4px;
+}
