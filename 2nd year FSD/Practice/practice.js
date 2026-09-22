@@ -16,4 +16,4 @@ const student = {
     name: studentName,
     rollNo: studentRollNo
 };
-console.log("Student Object:", student);
+console.log("Student Object:", student)
